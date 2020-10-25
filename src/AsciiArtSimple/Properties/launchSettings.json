@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AsciiArtSimple": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "type": "sync",
+        "input": "C:\\Temp\\0\\1.txt"
+      }
+    }
+  }
+}
