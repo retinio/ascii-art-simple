@@ -1,5 +1,6 @@
 # ascii-art-simple
-Convert selected text to ascii art banner
+Convert text file to ascii art banner
+
 ## Try it out!
 ```sh
 $ chmod +x ascii_art.sh
