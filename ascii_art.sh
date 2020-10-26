@@ -4,7 +4,7 @@
 printf "\033c"
 
 enviroments=""
-comand=""
+command=""
 
 while getopts f:i:o:t:c: flag
 do
@@ -34,7 +34,7 @@ if [ ! -z "${output}" ]; then
    enviroments=" ${enviroments} --env 'OUTPUT_FILE_PATH=/app/data/${filename}' --mount type=bind,source=${output},target=/app/data/${filename}"
 fi
 
-if [ ! -z "$type" ]; then
+if [ ! -z "${type}" ]; then
    enviroments=" ${enviroments} --env 'RUN_TYPE=${type}'"
 fi
 
